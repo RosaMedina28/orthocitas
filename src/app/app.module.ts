@@ -8,6 +8,7 @@ import { RegistroComponent } from './Component/Registro/registro/registro.compon
 import { LoginComponent } from './Component/Login/login/login.component';
 import { NavbarComponent } from './Component/Navbar/navbar/navbar.component';
 import { InicioComponent } from './Component/Inicio/inicio/inicio.component';
+import { ErrorComponent } from './Component/error/error.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { InicioComponent } from './Component/Inicio/inicio/inicio.component';
     RegistroComponent,
     LoginComponent,
     NavbarComponent,
-    InicioComponent],
+    InicioComponent,
+    ErrorComponent],
   imports: [
     BrowserModule,
     AppRoutingModule
