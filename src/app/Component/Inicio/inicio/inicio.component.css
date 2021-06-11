@@ -11,15 +11,15 @@
     top: 0;
     left: 0;
 }
-.p { font-size: 100%;
+.p { font-size: 120%;
     color: #F7F4F3; }
   
 
    
   .boton{
    
-    font-weight: 300;
-    font-size: 25px;
+    height: 25;
+    font-size: 55px;
     font-style: italic;
     color: #2a78a5;
     background-color: #ffffff;

@@ -9,6 +9,9 @@ import { LoginComponent } from './Component/Login/login/login.component';
 import { NavbarComponent } from './Component/Navbar/navbar/navbar.component';
 import { InicioComponent } from './Component/Inicio/inicio/inicio.component';
 import { ErrorComponent } from './Component/error/error.component';
+import { OrtodonciaComponent } from './Component/ortodoncia/ortodoncia.component';
+import { EndodonciaComponent } from './Component/endodoncia/endodoncia.component';
+import { MaxilofacialComponent } from './Component/maxilofacial/maxilofacial.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { ErrorComponent } from './Component/error/error.component';
     LoginComponent,
     NavbarComponent,
     InicioComponent,
-    ErrorComponent],
+    ErrorComponent,
+    OrtodonciaComponent,
+    EndodonciaComponent,
+    MaxilofacialComponent],
   imports: [
     BrowserModule,
     AppRoutingModule
