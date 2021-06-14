@@ -12,6 +12,7 @@ import { ErrorComponent } from './Component/error/error.component';
 import { OrtodonciaComponent } from './Component/ortodoncia/ortodoncia.component';
 import { EndodonciaComponent } from './Component/endodoncia/endodoncia.component';
 import { MaxilofacialComponent } from './Component/maxilofacial/maxilofacial.component';
+import { RouteComponent } from './route/route.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { MaxilofacialComponent } from './Component/maxilofacial/maxilofacial.com
     ErrorComponent,
     OrtodonciaComponent,
     EndodonciaComponent,
-    MaxilofacialComponent],
+    MaxilofacialComponent,
+    RouteComponent],
   imports: [
     BrowserModule,
     AppRoutingModule

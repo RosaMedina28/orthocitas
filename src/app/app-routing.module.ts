@@ -10,8 +10,8 @@ import { OrtodonciaComponent } from './Component/ortodoncia/ortodoncia.component
 import { RegistroComponent } from './Component/Registro/registro/registro.component';
 
 const routes: Routes = [
-  {path:'nav', component:NavbarComponent},
-  {path:'inicio', component:InicioComponent},
+  
+  {path:'', component:InicioComponent},
   {path:'Login', component:LoginComponent},
   {path:'Registro', component:RegistroComponent},
   {path:'ortodoncia', component:OrtodonciaComponent},
